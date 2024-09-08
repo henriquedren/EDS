@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociologia: Max Weber e Carlos Drummond de Andrade</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .content img {
+            width: 45%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .text {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+        }
+        .video-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .video-container iframe {
+            width: 80%;
+            height: 400px;
+            border: none;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+        }
+        /* Estilo para lembrar temas acadêmicos/sociológicos */
+        body {
+            background-color: #f0f4f7; /* Tom suave para leitura */
+        }
+        h1 {
+            color: #2c3e50; /* Azul escuro para dar seriedade */
+        }
+        p {
+            color: #555;
+        }
+        /* Efeito de hover nas imagens */
+        .content img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Max Weber e Carlos Drummond de Andrade</h1>
+        </div>
+
+        <div class="content">
+            <!-- Imagem de Max Weber -->
+            <img src="{{ url_for('static', filename='images/weber.jpg') }}" alt="Max Weber">
+            
+            <!-- Imagem de Carlos Drummond de Andrade -->
+            <img src="{{ url_for('static', filename='images/drummond.jpg') }}" alt="Carlos Drummond de Andrade">
+        </div>
+
+        <div class="text">
+            <p>Este site explora a relação entre o sociólogo Max Weber e o poeta Carlos Drummond de Andrade, enfatizando as contribuições de ambos para as ciências humanas. Weber, conhecido por sua análise do desencantamento do mundo e da racionalidade na sociedade moderna, oferece uma perspectiva que complementa a visão poética de Drummond, cujo poema "Mãos Dadas" ressoa com reflexões sociológicas sobre solidariedade e humanidade.</p>
+        </div>
+
+        <!-- Container para o vídeo do YouTube -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/SEU_VIDEO_ID" allowfullscreen></iframe>
+        </div>
+
+        <footer>
+            &copy; 2024 Universidade Federal do ABC - EDS
+        </footer>
+    </div>
+</body>
+</html>
